@@ -1,6 +1,6 @@
 output "s3_bucket_name" {
   value       = aws_s3_bucket.terraform_state.id
-  description = "The NAME of the S3 bucket"
+  description = "The Name of the S3 bucket"
 }
 
 output "s3_bucket_arn" {
@@ -10,7 +10,7 @@ output "s3_bucket_arn" {
 
 output "s3_bucket_region" {
   value       = aws_s3_bucket.terraform_state.region
-  description = "The REGION of the S3 bucket"
+  description = "The Region of the S3 bucket"
 }
 
 output "dynamodb_table_name" {
