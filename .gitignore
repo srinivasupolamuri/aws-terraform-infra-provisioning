@@ -1,0 +1,22 @@
+
+# Terraform working directories
+**/.terraform/*
+
+# Terraform state
+*.tfstate
+*.tfstate.*
+
+# Terraform plans
+*.tfplan
+*.plan
+
+# Local variables and sensitive files
+*.tfvars
+!**/terraform.tfvars.example
+*.pem
+*.key
+.env
+.env.*
+
+# Real backend configuration
+**/backend.tf
